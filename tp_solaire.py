@@ -52,27 +52,3 @@ def rotate ():
 # Pour le servo 2
             kit.servo[2].angle = rotate_degree / 4
             time.sleep(1)
-    
-    
-    
-
-
-
-
-
-
-# ici va se trouver les "pins" de nos servos
-kit = ServoKit(channels=8)
-
-def rotation (c1, c2, c3, c4):
-    # Set channels to the number of servo channels on your kit.
-    # 8 for FeatherWing, 16 for Shield/HAT/Bonnet.
-    
-
-    for i in range(len(kit.servo)):
-        kit.servo[i].angle = 180
-    time.sleep(1)
-    for i in range(len(kit.servo)):
-        kit.servo[i].angle = 0
-    time.sleep(1)
-
