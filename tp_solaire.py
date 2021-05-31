@@ -1,4 +1,14 @@
-# Ne pas oublier les utf8 etc
+#!/usr/bin/python3
+#  -*- coding: utf-8 -*-
+
+# Date: Mardi 31 Mai 2021 
+# Author: Matthieu LEGER
+# Description: TD 211 : TP Solarius
+# Python Version 3.9
+# ECAM - AAM 1 - TD 201
+# Faire fonctionner un panneau solaire avec deux servos 
+# et des capteurs de luminosité
+
 
 import time
 from adafruit_servokit import ServoKit
